@@ -80,6 +80,16 @@ input[type="text"], select {
   border-radius: 5px;
   padding: 20px;
   text-align: center;
+  display: none;
+}
+
+#respuesta-container,
+#h2-respuesta {
+  display: none;
+}
+
+#respuesta-container.has-content {
+  display: block;
 }
 
 #respuesta {
@@ -91,6 +101,3 @@ input[type="text"], select {
 #busqueda-objecion {
   margin-right: 10px;
 }
-
-
-
