@@ -15,6 +15,12 @@ function resetearValores() {
   document.getElementById('uso').selectedIndex = 0;
   document.getElementById('busqueda-objecion').value = '';
   document.getElementById('respuesta').textContent = '';
+
+  // Ocultar el respuesta-container y el h2 al presionar el botón "Reset"
+  var respuestaContainer = document.getElementById('respuesta-container');
+  respuestaContainer.classList.remove('has-content');
+  var h2Respuesta = document.getElementById('h2-respuesta');
+  h2Respuesta.style.display = 'none';
 }
 
 
@@ -157,20 +163,34 @@ function obtenerRespuesta() {
     return respuesta.objecion === objecion;
   });
 
-  var comprender = respuesta.comprende;
-  var rebate = respuesta.rebate;
-  var pregunta = respuesta.pregunta;
+  if (respuesta) {
+    var comprender = respuesta.comprende;
+    var rebate = respuesta.rebate;
+    var pregunta = respuesta.pregunta;
 
-  if (!tipoLinea && !uso) {
-    pregunta = pregunta;
-  } else if (!uso) {
-    pregunta = 'Cuenteme ¿Qué es lo que más utiliza?';
-  } else if (uso !== 'ninguna') {
-    pregunta = '¿Alguna vez cambiaste de empresa?';
+    if (!tipoLinea && !uso) {
+      pregunta = pregunta;
+    } else if (!uso) {
+      pregunta = 'Cuenteme ¿Qué es lo que más utiliza?';
+    } else if (uso !== 'ninguna') {
+      pregunta = '¿Alguna vez cambiaste de empresa?';
+    }
+
+    var respuestaHTML = "<b>Comprende:</b> " + comprender.trim() + "<br><b>Rebate:</b> " + rebate.trim() + "<br><b>Pregunta:</b> " + pregunta.trim();
+    respuestaElement.innerHTML = respuestaHTML;
+
+    // Mostrar el respuesta-container y el h2 al tener una respuesta válida
+    var respuestaContainer = document.getElementById('respuesta-container');
+    respuestaContainer.classList.add('has-content');
+    var h2Respuesta = document.getElementById('h2-respuesta');
+    h2Respuesta.style.display = 'block';
+  } else {
+    // Ocultar el respuesta-container y el h2 si no hay una respuesta válida
+    var respuestaContainer = document.getElementById('respuesta-container');
+    respuestaContainer.classList.remove('has-content');
+    var h2Respuesta = document.getElementById('h2-respuesta');
+    h2Respuesta.style.display = 'none';
   }
-
-  var respuestaHTML = "<b>Comprende:</b> " + comprender.trim() + "<br><b>Rebate:</b> " + rebate.trim() + "<br><b>Pregunta:</b> " + pregunta.trim();
-  respuestaElement.innerHTML = respuestaHTML;
 }
 
 
