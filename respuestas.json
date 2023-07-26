@@ -1,0 +1,77 @@
+{
+    "respuestas": [
+      {
+        "objecion": "No me gusta Movistar como empresa",
+        "comprende": "Alguna vez te sucedió algo con la facturación o la señal?",
+        "rebate": "Lamento mucho lo que te sucedió, en este caso ya cuentas con el descuento fijo por 24 meses. ¿Te podemos enviar un mail con la promoción para que te quede a ti?",
+        "pregunta": "¿Alguna vez realizaste este trámite?"
+      },
+      {
+        "objecion": "Me llamaron hoy a la mañana",
+        "comprende": "Lo comprendo que estés cansado de los llamados, sin embargo...",
+        "rebate": "Lo que quiero dar es un descuento por 24 meses en tu línea celular.",
+        "pregunta": "Le hago una consulta rápida. ¿Recarga en un kiosko o paga una factura?"
+      },
+      {
+        "objecion": "No gracias, no estoy interesada en ningún plan",
+        "comprende": "Seguramente te encuentres cómodo con lo que tienes. ¿Realizas recargas?",
+        "rebate": "La idea es que con un plan puedas tener conectividad todo el día y en todo lugar. Vas a estar abonando menos...",
+        "pregunta": "Cuéntame qué es lo que más utilizas en la línea."
+      },
+      {
+        "objecion": "No me interesa",
+        "comprende": "La entiendo que no estés interesado. Tenga en cuenta...",
+        "rebate": "Nosotros actualmente estamos ofreciendo un servicio con un descuento fijo por 24 meses y con un plan acorde a sus necesidades...",
+        "pregunta": "¿Qué es lo que más utiliza en su compañía?"
+      },
+      {
+        "objecion": "No soy la encargada de la línea/abono",
+        "comprende": "Lo comprendo, ¿es usted quien utiliza la línea?",
+        "rebate": "No te preocupes que puedo gestionar con vos el trámite y que estés ahorrando desde el próximo mes. Solo necesitamos los datos del titular...",
+        "pregunta": "¿Sabes cómo es el trámite?"
+      },
+      {
+        "objecion": "Tengo muchos años con Claro/Personal y no me voy a cambiar",
+        "comprende": "Comprendo perfectamente el recorrido que tienes en la empresa...",
+        "rebate": "Tenga en cuenta que nosotros lo invitamos a ingresar a nuestra compañía, con la comodidad de...",
+        "pregunta": "¿Cuánto viene pagando en Claro/Personal? ¿Qué es lo que más utiliza?"
+      },
+      {
+        "objecion": "Ya tuve Movistar y cuando necesité, no me dieron ninguna promoción",
+        "comprende": "Lamento mucho que te haya pasado eso...",
+        "rebate": "Yo lo invito a tener una nueva experiencia con la empresa. También quiero que sepas que yo le hago un seguimiento a todas mis gestiones, así usted puede preguntarme lo que quiere de su línea...",
+        "pregunta": "¿Qué es lo que más utiliza en su compañía?"
+      },
+      {
+        "objecion": "Estoy muy cómodo como estoy, no quiero cambiarme",
+        "comprende": "Te entiendo perfectamente que estés cómodo...",
+        "rebate": "Nosotros al igual que su compañía, le brindemos que este comunicado sin embargo con mayor calidad de servicio. Además una promoción por 24 meses abonando menos.",
+        "pregunta": "Cuentame ¿Sabes como es el trámite?"
+      },
+      {
+        "objecion": "Ya tuve Movistar y tuve problemas de facturación",
+        "comprende": "Comprendo, cuentame cual fue el problema que tuvo?",
+        "rebate": "Lo bueno es que hoy contamos con planes y promociones que tienen descuentos fijos por 24 meses. Hoy en dia en el caso que aumente su factura sera notificado por sms..",
+        "pregunta": "Actualmente ¿Qué es lo que más utiliza?"
+      },
+      {
+        "objecion": "No tengo señal en mi zona con Movistar",
+        "comprende": "Entiendo su preocupación por la comunicación...",
+        "rebate": "Quedese tranquil@o que hoy en dia estamos trabajando con antenas 4g y 5g, y estamso en mejora constante...",
+        "pregunta": "Cuenteme ¿Qué es lo que más utiliza?"
+      },
+      {
+        "objecion": "Me llamaron muchas veces..",
+        "comprende": "Lamento mucho la situación. Le pido disculpas por eso...",
+        "rebate": "Le explicaron que es para un descuento por 24 meses en su línea celular con gigas de regalo",
+        "pregunta": "¿Alguna vez cambiaste de empresa?"
+      },
+      {
+        "objecion": "Por ahora no",
+        "comprende": "Comprendo, que estes comodo como estas...",
+        "rebate": "Nuestra idea es que puedas comparar los servicios y las promociones. Y puedas empezar a abonar menos con nosotros y tambien mejores tu servicio..",
+        "pregunta": "Actualmente ¿Qué es lo que más utiliza?"
+      }
+    ]
+  }
+  

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Generador de Rebates</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="icon" type="image/png" href="logo/favicon.ico">
+</head>
+<body>
+  
+    <div id="logo-container">
+      <img src="logo/logoazo.png" alt="Logo de la empresa">
+    </div>
+
+  <div class="container">
+    <div id="titulo-container">
+      <h1>Generador de Rebates</h1>
+    </div>
+
+    <div id="perfil-container">
+      <h2>Seleccionar Perfil:</h2>
+      <label>
+        <input type="radio" name="perfil" value="agresivo" checked>
+        Agresivo
+      </label>
+      <label>
+        <input type="radio" name="perfil" value="tranquilo">
+        Tranquilo
+      </label>
+    </div>
+
+    <div id="objecion-container">
+      <h2>Objeción:</h2>
+      <div class="objecion">
+        <input type="text" id="busqueda-objecion" list="opciones-objecion" placeholder="Buscar objeción">
+        <datalist id="opciones-objecion">
+        <!-- Opciones de objeción -->
+        </datalist>
+      </div>
+    </div>
+  
+    <div id="info-container">
+      <h2>Información del Cliente:</h2>
+      <label for="empresa">Empresa:</label>
+      <select id="empresa">
+        <option value="" selected disabled>Seleccionar empresa</option>
+        <option value="claro">Claro</option>
+        <option value="personal">Personal</option>
+      </select>
+      <br>
+      <label for="tipo-linea">Tipo de Línea:</label>
+      <select id="tipo-linea">
+        <option value="" selected disabled>Seleccionar tipo de línea</option>
+        <option value="abono">Abono</option>
+        <option value="prepago">Prepago</option>
+      </select>
+      <br>
+      <label for="uso">Uso Principal:</label>
+      <select id="uso">
+        <option value="" selected disabled>Seleccionar uso principal</option>
+        <option value="whatsapp">WhatsApp</option>
+        <option value="llamadas">Llamadas</option>
+        <option value="mensajes">Mensajes</option>
+        <option value="internet">Internet</option>
+      </select>
+    </div>
+  
+    <div>
+      <button id="buscar-btn">Buscar</button>
+      <button id="reset-btn">Reset</button>  
+    </div>
+  
+    <h2>Respuesta:</h2>
+    <div id="respuesta-container">
+        <p id="respuesta"></p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
