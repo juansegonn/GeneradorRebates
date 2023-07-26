@@ -8,15 +8,17 @@
 </head>
 <body>
   
-    <div id="logo-container">
-      <img src="logo/logoazo.png" alt="Logo de la empresa">
-    </div>
-
+<div class="cuerpo">
+  
+  <div id="logo-container">
+    <img src="logo/logoazo.png" alt="Logo de la empresa">
+  </div>
+  
   <div class="container">
     <div id="titulo-container">
       <h1>Generador de Rebates</h1>
     </div>
-
+    
     <div id="perfil-container">
       <h2>Seleccionar Perfil:</h2>
       <label>
@@ -28,17 +30,16 @@
         Tranquilo
       </label>
     </div>
-
+    
     <div id="objecion-container">
       <h2>Objeción:</h2>
       <div class="objecion">
         <input type="text" id="busqueda-objecion" list="opciones-objecion" placeholder="Buscar objeción">
         <datalist id="opciones-objecion">
-        <!-- Opciones de objeción -->
         </datalist>
       </div>
     </div>
-  
+    
     <div id="info-container">
       <h2>Información del Cliente:</h2>
       <label for="empresa">Empresa:</label>
@@ -47,14 +48,14 @@
         <option value="claro">Claro</option>
         <option value="personal">Personal</option>
       </select>
-      <br>
+
       <label for="tipo-linea">Tipo de Línea:</label>
       <select id="tipo-linea">
         <option value="" selected disabled>Seleccionar tipo de línea</option>
         <option value="abono">Abono</option>
         <option value="prepago">Prepago</option>
       </select>
-      <br>
+      
       <label for="uso">Uso Principal:</label>
       <select id="uso">
         <option value="" selected disabled>Seleccionar uso principal</option>
@@ -64,18 +65,40 @@
         <option value="internet">Internet</option>
       </select>
     </div>
-  
+    
     <div>
       <button id="buscar-btn">Buscar</button>
       <button id="reset-btn">Reset</button>  
     </div>
-  
+    
     <h2 id="h2-respuesta">Respuesta:</h2>
     <div id="respuesta-container">
-        <p id="respuesta"></p>
+      <p id="respuesta"></p>
     </div>
   </div>
-
+  
+  <div class="geolocalizador-container" >
+    
+    <div id="titulo-container">
+      <h1>Geolocalizador</h1>
+    </div>
+    
+    <div>
+      <label for="numero-llamada">Número:</label>
+      <input type="text" id="numero-llamada" placeholder="Ingrese el número del llamado">
+      <button id="buscar-geolocalizacion">Buscar</button>
+      <button id="reset-btn-geo">Reset</button> 
+    </div>
+    
+    <h2 id="h2-ubicacion">Ubicacion:</h2>
+    <div id="resultado-geolocalizacion">
+      <p id="zona-encontrada"></p>
+      <p id="mapa-antenas"></p>
+    </div>
+  </div>
+  <div style="clear:both;"></div> 
+</div>  
   <script src="script.js"></script>
+  <script src="geolocalizador.js"></script>
 </body>
 </html>

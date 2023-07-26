@@ -1,11 +1,15 @@
 body {
   background-color: #f2f2f2;
   color: #333;
-  font-family: Arial, sans-serif;
+  font-family: sans-serif;
 }
 
 h1, h2 {
   color: #333;
+}
+
+.cuerpo{
+  overflow: hidden;
 }
 
 .container {
@@ -13,8 +17,10 @@ h1, h2 {
   border-radius: 10px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 20px;
-  margin: 20px auto;
+  margin: 20px;
   max-width: 600px;
+  float: left;
+  width: 33.33%; /* Puedes ajustar el ancho según tus necesidades */
 }
 
 #titulo-container {
@@ -28,14 +34,15 @@ h1, h2 {
 
 #logo-container {
   margin-bottom: 10px;
-  position: absolute;
   width: 150px;
   height: 150px;
+  float: left;
+  width: 10%; /* Puedes ajustar el ancho según tus necesidades */
 }
 
 #logo-container img {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 95px;
   margin-left: 10px;
 }
 
@@ -78,13 +85,13 @@ input[type="text"], select {
   height: 120px;
   color: #fff;
   border-radius: 5px;
-  padding: 20px;
+  padding: 20px 20px 50px;
   text-align: center;
   display: none;
 }
 
 #respuesta-container,
-#h2-respuesta {
+#h2-respuesta, #h2-ubicacion {
   display: none;
 }
 
@@ -100,4 +107,58 @@ input[type="text"], select {
 
 #busqueda-objecion {
   margin-right: 10px;
+}
+
+/* Estilos para el Geolocalizador */
+.geolocalizador-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px;
+  max-width: 600px;
+  float: left;
+  width: 33.33%; /* Puedes ajustar el ancho según tus necesidades */
+}
+
+#geolocalizador-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+#numero-llamada {
+  width: 97%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  color: #333;
+  background-color: #f9f9f9;
+  margin: 10px 10px 10px 0px;
+}
+
+#buscar-geolocalizacion, #reset-btn-geo {
+  background-color: #ff732d;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 0 10px 10px 0px;
+}
+
+#buscar-geolocalizacion:hover, #reset-btn-geo:hover {
+  background-color: #ff5722;
+}
+
+#resultado-geolocalizacion {
+  background-color: #63388c;
+  height: 90px;
+  width: 250px;
+  color: #fff;
+  border-radius: 5px;
+  padding: 5px;
+  text-align: left;
+  display: none;
 }
