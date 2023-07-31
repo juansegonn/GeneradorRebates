@@ -82,10 +82,10 @@ input[type="text"], select {
 
 #respuesta-container {
   background-color: #63388c;
-  height: 120px;
+  height: auto;
   color: #fff;
   border-radius: 5px;
-  padding: 20px 20px 50px;
+  padding: 10px;
   text-align: center;
   display: none;
 }
@@ -154,11 +154,15 @@ input[type="text"], select {
 
 #resultado-geolocalizacion {
   background-color: #63388c;
-  height: 90px;
-  width: 250px;
+  height: auto;
+  width: auto;
   color: #fff;
   border-radius: 5px;
   padding: 5px;
-  text-align: left;
+  text-align: center;
   display: none;
+}
+
+#zona-encontrada{
+  margin: 5px;
 }
