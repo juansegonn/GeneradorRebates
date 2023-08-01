@@ -142,7 +142,7 @@ document.addEventListener('DOMContentLoaded', function() {
           "mapa": "https://www.nperf.com/es/map/AR/-/152392.Movistar-Mvil/signal/?ll=-38.74444410121546&lg=-62.24510192871094&zoom=11"
         },
         {
-          "nombre": "Rio negro, Neuquen y Chubut (San Carlos de BariloCOche y alrededores)",
+          "nombre": "Rio negro, Neuquen y Chubut (San Carlos de Bariloche y alrededores)",
           "prefijo": "294",
           "mapa": "https://www.nperf.com/es/map/AR/-/152392.Movistar-Mvil/signal/?ll=-41.58668835697236&lg=-71.60888671875001&zoom=8"
         },
