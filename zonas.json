@@ -231,8 +231,13 @@
         "mapa": "https://www.nperf.com/es/map/AR/-/152392.Movistar-Mvil/signal/?ll=-35.231037671011904&lg=-59.11262512207032&zoom=11"
       },
       {
-        "nombre": "Buenos Aires (Chascomus y alrededores)",
+        "nombre": "Buenos Aires (Juan María Gutiérrez y alrededores)",
         "prefijo": "2229",
+        "mapa": "https://www.nperf.com/es/map/AR/-/152392.Movistar-Mvil/signal/?ll=-34.84564869533323&lg=-58.18445205688477&zoom=13"
+      }
+      {
+        "nombre": "Buenos Aires (Chascomus y alrededores)",
+        "prefijo": "2241",
         "mapa": "https://www.nperf.com/es/map/AR/-/152392.Movistar-Mvil/signal/?ll=-35.57133159958164&lg=-58.078536987304695&zoom=11"
       },
       {
